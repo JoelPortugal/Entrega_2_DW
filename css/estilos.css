@@ -1,4 +1,16 @@
-/* RESET */
+
+
+
+
+
+
+
+
+
+
+
+
+RESET */
 *{margin: 0;padding: 0; box-sizing: border-box;}
 /* REM */
 html{font-size: 62,5%;}
@@ -8,8 +20,89 @@ html{font-size: 62,5%;}
 /* Barra */
 body{background-color: black;}
 header{display: flex; justify-content: space-around; align-items: center;}
-header nav ul{color: antiquewhite; list-style: none; display: flex;gap: 1.5rem; text-decoration: none; }
+header nav ul{color: white; list-style: none; display: flex;gap: 1.5rem; text-decoration: none; }
 .img-uno{height: 190px; width: 190px;}
+
+/* main */
+ 
+.img-cinco, .img-seis, .img-siete, .img-ocho {
+    display: none;
+}
+.aboutus{display: none;}
+.innovacion{display: none;}
+main{height: 65vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 20%); margin: 3rem 2rem 3rem 2rem;
+   }
+
+
+
+main div img{
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover; 
+        margin-bottom: 1rem;
+    }
+
+
+
+
+/* mq de tablet */
+@media screen and (min-width:600px){
+
+        .imagenes{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;}
+
+        .innovacion{display: none;}
+        .aboutus{display: grid;}
+        .img-seis, .img-siete, .img-ocho{
+        display: none;}
+
+        .img-cinco{display: grid;}
+
+    }
+
+/* mq de escritorio */
+@media screen and (min-width:1024px){
+
+    .imagenes{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;}
+
+    .innovacion{display: grid;}
+    .img-cinco, .img-seis, .img-siete{display: grid;}
+    .img-ocho{display: none;}
+
+    
+    
+
+
+
+}
+  
+    
+    
+
+
+
+   
+
+   
+
+    
+
+
+    
+
+
+
+
 
 
 
@@ -34,6 +127,20 @@ header nav ul{color: antiquewhite; list-style: none; display: flex;gap: 1.5rem; 
 /* MODELOS */
 
 /* NOSOTROS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
