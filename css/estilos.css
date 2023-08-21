@@ -28,16 +28,18 @@ header nav ul{color: white; list-style: none; display: flex;gap: 1.5rem; text-de
 .img-cinco, .img-seis, .img-siete, .img-ocho {
     display: none;
 }
-.aboutus{display: none;}
-.innovacion{display: none;}
+.aboutus{
+    display: none;}
+
+.innovacion{
+    display: none;}
+
 main{height: 65vh;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 20%); margin: 3rem 2rem 3rem 2rem;
    }
-
-
-
+   
 main div img{
         width: 100%; 
         height: 100%; 
